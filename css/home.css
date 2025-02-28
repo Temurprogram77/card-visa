@@ -5,12 +5,16 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background: #0e0d0d;
   font-family: "Space Mono", sans-serif;
   font-weight: 900;
+}
+.big-container{
+  max-width: 700px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .card {
   margin: 0 auto;
@@ -20,6 +24,9 @@ body {
   background-size: cover;
   background-position: center;
   background-image: url("/assets/img/card.png");
+}
+.right {
+  color: #fff;
 }
 .inp {
   width: fit-content;
