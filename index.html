@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="register">
+            <h1>Register</h1>
+            <div class="form">
+                <div class="inp1">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <p class="wrong1 red hidden"></p>
+                </div>
+                <div class="inp2">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <p class="wrong2 red hidden"></p>
+                </div>
+                <div class="inp3">
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                    <p class="wrong3 red hidden"></p>
+                </div>
+                <div class="inp4">
+                    <input type="text" id="address" placeholder="Address" required>
+                    <p class="wrong4 red hidden"></p>
+                </div>
+                <div class="inp5">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <p class="wrong5 red hidden"></p>
+                </div>
+                <div class="inp6">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                    <p class="wrong6 red hidden"></p>
+                </div>
+                <div class="inp7">
+                    <button type="submit" id="btn">Register</button>
+                    <div class="wrong7 red2 hidden"></div>
+                </div>
+            </div>
+            <p id="errorMsg"></p>
+        </div>
+        <div class="sign hidden">
+            <h1>Sign In</h1>
+            <div>
+                <input type="text" id="signinUsername" placeholder="Username" required>
+                <input type="password" id="signinPassword" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+            </div>
+            <p id="signinErrorMsg"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
