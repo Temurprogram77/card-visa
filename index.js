@@ -54,19 +54,28 @@
 // console.log(phone.getWarranty());
 
 let data = [
-    {
-        name: "Temurbek",
-        surname: "Narzullayev",
-        image: "/assets/img/account.png",
-        balance: 10000,
-    },
-]
-let ball = document.querySelector('.ball');
-let workingBox = document.querySelector('.working-box');
-let income = document.querySelector('.income');
-let expense = document.querySelector('.expense');
-let inp = document.querySelector('.inp input');
+  {
+    name: "Temurbek",
+    surname: "Narzullayev",
+    image: "/assets/img/account.png",
+    balance: 10000,
+  },
+];
+let ball = document.querySelector(".ball");
+let workingBox = document.querySelector(".working-box");
+let income = document.querySelector(".income");
+let expense = document.querySelector(".expense");
+let inp = document.querySelector(".inp input");
 
 let inpValue = inp.value;
 
-
+data.forEach((parametr) => {
+  const card = document.createElement("li"); // Splide ichida `li` kerak
+  card.className = "splide__slide"; // Splide slayd klassini qo‘shamiz
+  card.innerHTML = `
+      <div class="card avto-card content">
+          <img src="${parametr.image}" alt="${parametr.name}">
+      </div>
+    `;
+  splideCards.appendChild(card);
+});
