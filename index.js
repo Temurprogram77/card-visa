@@ -70,12 +70,11 @@ let inp = document.querySelector(".inp input");
 let inpValue = inp.value;
 
 expense.addEventListener('click', ()=>{
-    
+    if (inpValue) {
+        
+    }
 })
 
-if (inpValue) {
-    
-}
 
 // data.forEach((parametr) => {
 //   const card = document.createElement("li");
