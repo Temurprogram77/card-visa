@@ -62,5 +62,11 @@ let data = [
     },
 ]
 let ball = document.querySelector('.ball');
+let workingBox = document.querySelector('.working-box');
+let income = document.querySelector('.income');
+let expense = document.querySelector('.expense');
+let inp = document.querySelector('.inp input');
+
+let inpValue = inp.value;
 
 
