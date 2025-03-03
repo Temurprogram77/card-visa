@@ -61,3 +61,5 @@ let data = [
         balance: 10000,
     },
 ]
+let ball = document.querySelector('.ball');
+
