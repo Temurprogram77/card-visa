@@ -61,5 +61,3 @@ let data = [
         balance: 10000,
     },
 ]
-
-
