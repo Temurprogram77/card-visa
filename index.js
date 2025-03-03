@@ -70,8 +70,8 @@ let inp = document.querySelector(".inp input");
 let inpValue = inp.value;
 
 data.forEach((parametr) => {
-  const card = document.createElement("li"); // Splide ichida `li` kerak
-  card.className = "splide__slide"; // Splide slayd klassini qo‘shamiz
+  const card = document.createElement("li");
+  card.className = "splide__slide";
   card.innerHTML = `
       <div class="card avto-card content">
           <img src="${parametr.image}" alt="${parametr.name}">
