@@ -97,3 +97,18 @@ input {
   width: fit-content;
   gap: 2rem;
 }
+.box {
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+  background: rgb(175, 183, 255);
+}
+.balance {
+  color: #000;
+}
+.working-box {
+  background: rgb(126, 138, 254);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
