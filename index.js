@@ -69,13 +69,15 @@ let inp = document.querySelector(".inp input");
 
 let inpValue = inp.value;
 
-data.forEach((parametr) => {
-  const card = document.createElement("li");
-  card.className = "splide__slide";
-  card.innerHTML = `
-      <div class="card avto-card content">
-          <img src="${parametr.image}" alt="${parametr.name}">
-      </div>
-    `;
-  splideCards.appendChild(card);
-});
+
+
+// data.forEach((parametr) => {
+//   const card = document.createElement("li");
+//   card.className = "splide__slide";
+//   card.innerHTML = `
+//       <div class="card avto-card content">
+//           <img src="${parametr.image}" alt="${parametr.name}">
+//       </div>
+//     `;
+//   splideCards.appendChild(card);
+// });
