@@ -67,16 +67,15 @@ let income = document.querySelector(".income");
 let expense = document.querySelector(".expense");
 let inp = document.querySelector(".inp input");
 
-let inpValue = inp.value;
-ball.textContent = "2.000.000"
-ball == 2000000;
+let inpValue = +inp.value;
+ball.textContent = "2.000.000";
+ball = 2000000;
 
-expense.addEventListener('click', ()=>{
-    if (inpValue) {
-        
-    }
-})
-
+expense.addEventListener("click", () => {
+  if (Number(inpValue)) {
+  } else {
+  }
+});
 
 // data.forEach((parametr) => {
 //   const card = document.createElement("li");
