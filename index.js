@@ -58,6 +58,8 @@ let data = [
         name: "Temurbek",
         surname: "Narzullayev",
         image: "/assets/img/account.png",
+        balance: 10000,
     },
 ]
+
 
