@@ -19,3 +19,9 @@ class Account {
 }
 const account = new Account("Temurbek", "USD", 1111, 1000);
 console.log(account);
+account.deposit(100)
+account.withdraw(200)
+
+account.movements.forEach((nav)=>{
+    console.log(nav);
+})
